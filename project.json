@@ -1,0 +1,93 @@
+{
+  "project_type": "javascript",
+  "debugMode": 1,
+  "showFPS": false,
+
+  "frameRate": 60,
+  "noCache": false,
+  "id": "gameCanvas",
+  "renderMode": 0,
+  "engineDir": "frameworks/cocos2d-html5",
+  "modules": [
+    "cocos2d",
+    "extensions",
+    "cocostudio",
+    "spine",
+    "chipmunk",
+    "ccui",
+    "editbox"
+  ],
+  "jsList": [
+
+    "src/resource.js",
+    "src/WebResource.js",
+    "src/Engine/GUI/BaseLayer.js",
+    "src/Engine/GUI/GuiUtility.js",
+    "src/Engine/GUI/BaseLobby.js",
+    "src/Engine/GUI/BaseScene.js",
+    "src/Engine/GUI/SceneMgr.js",
+    "src/Engine/Utility/Dialog.js",
+    "src/Engine/Purchase/InappPurchase.js",
+    "src/Engine/Utility/LocalizedString.js",
+
+    "src/Engine/Utility/StringUtility.js",
+    "src/Engine/Utility/Toast.js",
+    "src/Engine/Utility/Utils.js",
+
+    "src/Engine/Social/SocialManager.js",
+    "src/Engine/Network/InPacket.js",
+    "src/Engine/Network/OutPacket.js",
+    "src/Engine/Network/WsClient.js",
+    "src/Engine/Utility/EventHandlerManager.js",
+    "src/Game/common/common.js",
+    "src/Game/common/getConfigAPI.js",
+    "src/Game/common/md5.js",
+    "src/Engine/Unicorn/index.js",
+    "src/Engine/Utility/ClientBridge.js",
+
+    "src/Components/TableLayer/LayerTableFrame.js",
+    "src/Components/TableLayer/ControlerTableFrame.js",
+    "src/Components/TableLayer/DataViewFrame.js",
+    "src/Components/TableLayer/TabViewFrame.js",
+    "src/Components/TableLayer/OtherTabViewFrame.js",
+    "src/Components/ToolTipBaseLayer.js",
+
+    "src/Game/common/GameManager.js",
+    "src/Game/Network/ListenClient.js",
+    "src/Game/Network/gameWebSocketClient.js",
+    "src/Game/Network/ResponsePortal.js",
+    "src/Game/Alert/alert.js",
+    "src/Game/HallScene/signUp.js",
+    "src/Game/HallScene/getCaptcha.js",
+    "src/Game/HallScene/ItemSlot.js",
+    "src/Game/HallScene/signIn.js",
+    "src/Game/HallScene/hallscene.js",
+    "src/Game/HallScene/LayoutSetting.js",
+    "src/Game/HallScene/gift.js",
+    "src/Game/HallScene/conectSocketClient.js",
+
+    "src/Game/Information/player_info.js",
+    "src/Game/Information/hosocanhan.js",
+    "src/Game/Information/changePassword.js",
+    "src/Game/Information/Sercurity/sercurity.js",
+    "src/Game/Information/Sercurity/smsplus.js",
+    "src/Game/Information/Sercurity/baomatdangnhap.js",
+    "src/Game/Information/Sercurity/ketsat.js",
+    "src/Game/Information/historyTranfer.js",
+
+    "src/Game/Payment/payment.js",
+    "src/Game/Payment/addmoney.js",
+    "src/Game/Payment/cashmoney.js",
+    "src/Game/Payment/tranfermoney.js",
+
+    "src/Game/Guild/Huongdan.js",
+
+    "src/Game/Minigame/centerRing.js",
+    "src/Game/Minigame/MinigameBase.js",
+    "src/Game/Minigame/GameTaiXiu/gameGui/taiXiuGUI.js",
+    "src/Game/Minigame/GameTaiXiu/gameGui/dataSoiCau.js",
+    "src/Game/Minigame/GameTaiXiu/gameGui/drawCau.js",
+    "src/Game/Minigame/GameTaiXiu/gameLogic/logic_soicau.js"
+
+  ]
+}
